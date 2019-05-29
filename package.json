@@ -1,0 +1,35 @@
+{
+  "name": "google-link-checker",
+  "version": "1.0.0",
+  "description": "Checks Google Drive links if they are public",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decagon/google-link-checker.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Decagon",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "botkit": "0.2.2",
+    "botkit-storage-mongo": "^1.0.2",
+    "dotenv": "^8.0.0",
+    "get-urls": "^9.1.0",
+    "mongodb": "^1.4.39",
+    "request": "^2.88.0"
+  }
+}
